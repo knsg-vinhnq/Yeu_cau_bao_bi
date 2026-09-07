@@ -1,5 +1,0 @@
-Main Flow 
-1. Người dùng mở màn hình SplitBatchModal.tsx
-2. Hệ thống hiển thị thông tin phiếu nhận với trạng thái 4 và 5
-3. Người dùng chọn phiếu nhận hàng
-4. Hệ thống hiển thị danh sách chi tiết các vật tư đã xác nhận nhập kho
