@@ -1,0 +1,18 @@
+Main Flow 
+1. Người dùng mở màn hình SplitBatchModal.tsx
+2. Hệ thống hiển thị thông tin phiếu nhận với trạng thái 4 và 5
+3. Người dùng chọn phiếu nhận hàng
+4. Hệ thống hiển thị danh sách chi tiết các vật tư đã xác nhận nhập kho
+5. Người dùng chọn dòng chi tiết vật tư
+6. Hệ thống hiển thị các batch của dòng chi tiết vật tư đã chọn 
+7. Người dùng chọn batch cần tách
+8. Hệ thống hiển thị thông tin batch đã chọn
+9. Người dùng khai báo quy cách “ Đơn vị số lượng batch”
+10. Hệ thống gợi ý số lượng batch chia theo “ Đơn vị số lượng batch”
+11. Người dùng điều chỉnh số lượng batch và số lượng trong batch theo thực tế
+12. Người dùng xác nhận tách batch
+13. Hệ thống hiển thị danh sách batch được tách
+14. Hệ thống hiển thị in tem cho từng batch hoặc in tất cả
+Business Rules
+1.	Tổng số lượng batch con phải bằng số lượng batch cha
+2.	Batch cha sau khi tách batch phải chuyển số lượng về 0 và chuyển trạng thái tồn thành Đã xóa (Chưa chốt mã trạng thái)
