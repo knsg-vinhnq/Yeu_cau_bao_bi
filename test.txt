@@ -16,3 +16,4 @@ Main Flow
 Business Rules
 1.	Tổng số lượng batch con phải bằng số lượng batch cha
 2.	Batch cha sau khi tách batch phải chuyển số lượng về 0 và chuyển trạng thái tồn thành Đã xóa (Chưa chốt mã trạng thái)
+3.afbafldfgfdl;f;dh;
